@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduMinds - Emotion Detection</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/face-api.js"></script>
+</head>
+<body>
+    <header>
+        <h1>EduMinds</h1>
+    </header>
+
+    <section class="emotion-section">
+        <h2>Emotion Detection</h2>
+        <p>We are analyzing your emotions to personalize your learning experience.</p>
+        <div>
+            <video id="video" width="720" height="560" autoplay muted></video>
+            <button id="start-camera">Start Camera</button>
+        </div>
+        <div id="emotion-result">
+            <h3>Your Detected Emotion:</h3>
+            <p id="emotion-text">...</p>
+        </div>
+        <a href="videos.html" class="btn">Proceed to Videos</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 EduMinds. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
